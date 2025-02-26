@@ -11,7 +11,7 @@
 }
 
 body{
-    background: url(Assets/pexels-weddingphotography-1444442.jpg);
+    background: url(./Assets/pexels-weddingphotography-1444442.jpg);
     background-size: cover;
 }
 
@@ -274,7 +274,7 @@ h1{
 
 @media screen and (max-width: 768px) {
     body {
-        background: url(/Assets/mbg.jpg);
+        background: url(./Assets/mbg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: auto; /* Allow scrolling if needed */
