@@ -274,36 +274,36 @@ h1{
 
 @media screen and (max-width: 768px) {
     body {
-        background: url(./Assets/mbg.jpg);
+       
         background: url(./Assets/mbg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        overflow: auto; /* Allow scrolling if needed */
+        overflow: auto; 
         padding: 10px;
     }
 
     .headings {
-        font-size: 2rem; /* Reduce font size */
+        font-size: 2rem; 
         text-align: center;
         padding: 10px;
     }
 
     .col {
         flex-direction: column;
-        width: 100%; /* Full width on mobile */
-        align-items: center; /* Center items */
+        width: 100%; 
+        align-items: center;
     }
 
     .col div {
         margin: 10px 0;
-        width: 80%; /* Adjust width */
+        width: 80%; 
         text-align: center;
     }
 
     input {
-        width: 90%; /* Full width */
+        width: 90%; 
         height: 45px;
-        font-size: 24px; /* Reduce font size */
+        font-size: 24px; 
     }
 
     .btn {
@@ -313,7 +313,7 @@ h1{
     }
 
     .popUp-content {
-        width: 90%; /* Make pop-up fit small screens */
+        width: 90%; 
         max-width: 320px;
     }
 }
