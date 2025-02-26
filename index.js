@@ -32,6 +32,15 @@ const clock = ()=> {
 
 
         //converting into days
+        if(diff<=0) {
+            document.getElementById("popUp").style.display = "flex";
+            document.getElementById("popUp").innerText = "Done na!";
+            inputs[0].value = 0;
+            inputs[1].value = 0;
+            inputs[2].value = 0;
+            inputs[3].value = 0;
+            return;
+        }
         inputs[0].value = Math.floor(diff/3600/24);
     
     
